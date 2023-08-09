@@ -12,7 +12,6 @@ else{
     await $`git commit -m ${console.log(argv[2])}`
     await $`git push`
     await $`echo Código enviado com sucesso!!`
-    // console.log(argv[2])
     process.exit(1);
 
 }
