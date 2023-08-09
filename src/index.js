@@ -1,8 +1,6 @@
 import { $ } from "zx";
 import { argv } from 'node:process';
 
-
-
 if (process.argv.length === 2) {
     console.error('Por favor, digite a mensagem do Commit!');
     process.exit(1);
