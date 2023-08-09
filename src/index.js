@@ -1,5 +1,5 @@
 import { $ } from "zx";
-
+$.verbose = false
 
 if (process.argv.length === 2) {
     console.error('Por favor, digite a mensagem do Commit!');
