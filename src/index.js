@@ -12,6 +12,6 @@ else{
     await $`git commit -m ${message}`
     await $`git push`
     await $`echo Código enviado com sucesso!!`
-    process.exit(1);
+    process.exit(1)
 
 }
