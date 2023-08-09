@@ -6,10 +6,11 @@ if (process.argv.length === 2) {
     process.exit(1);
   }
 else{
-    const message = console.log(argv[2])
+    var message = argv[2]
+     
     console.log(message)
     await $`git add .`
-    await $`git commit -m '${message}'}`
+    await $`git commit -m ${message}}`
     await $`git push`
     await $`echo Código enviado com sucesso!!`
     process.exit(1);
