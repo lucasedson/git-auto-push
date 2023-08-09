@@ -7,6 +7,7 @@ if (process.argv.length === 2) {
   }
 else{
     const message = console.log(argv[2])
+    console.log(message)
     await $`git add .`
     await $`git commit -m '${message}'}`
     await $`git push`
