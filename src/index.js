@@ -10,7 +10,7 @@ else{
      
     console.log(message)
     await $`git add .`
-    await $`git commit -m ${message}}`
+    await $`git commit -m ${message}`
     await $`git push`
     await $`echo Código enviado com sucesso!!`
     process.exit(1);
