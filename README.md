@@ -15,4 +15,4 @@ node src/index.js "MENSAGEM PARA O GIT"
 ```
 
 ### Observação:
-- Se você é um usuário Linux você pode adicionar o script a um arquivo ```.bashrc``` e criar um Alias com o comando ```alias git-auto-push="node src/index.js"```
+- Se você é um usuário Linux você pode adicionar o script a um arquivo ```.bashrc``` e criar um Alias com o comando ```alias git-auto-push="node [SEU PATH COMPLETO]/src/index.js"```
