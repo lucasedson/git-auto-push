@@ -11,7 +11,7 @@ else{
     await $`git add .`
     await $`git commit -m ${message}`
     await $`git push`
-    await $`echo Código enviado com sucesso!!`
+    console.log("Add, Commit e Push realizado com sucesso!")
     process.exit(1)
 
 }
